@@ -8,7 +8,7 @@ Clone the repository using and run the server:
 * `cd vagrant-zk-standalone/`
 * `vagrant up`
 
-This will create a new virtual maschine, boot it and install the zookeeper deamon. Verify your zookeeper is running using the provided shell script `./zkStatus.sh`.
+This will create a new virtual maschine, boot it and install the zookeeper deamon. Verify your zookeeper is running using the provided shell script `./zkStatus.sh`. If every works as expected the return should be `imok`.
 
 ## Configure server ip
 
