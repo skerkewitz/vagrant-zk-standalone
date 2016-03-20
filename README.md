@@ -1,12 +1,18 @@
 # vagrant-zk-standalone
-Vagrant file to setup a running standalone zookeeper instance within a few minutes.
+Vagrant file to setup a running standalone [Apache Zookeeper 3.4] (https://zookeeper.apache.org/) instance on Ubuntu 14.04 LTS (Trusty Tahr) within minutes.
+
+## Requirements
+* [Vagrant] (https://www.vagrantup.com/downloads.html)
+* [VirtualBox] (https://www.virtualbox.org/wiki/Downloads)
 
 ## Quick start guide
 
 Clone the repository using and run the server:
-* `git clone https://github.com/skerkewitz/vagrant-zk-standalone.git`
-* `cd vagrant-zk-standalone/`
-* `vagrant up`
+```
+git clone https://github.com/skerkewitz/vagrant-zk-standalone.git
+cd vagrant-zk-standalone/
+vagrant up
+```
 
 This will create a new virtual maschine, boot it and install the zookeeper deamon. Verify your zookeeper is running using the provided shell script `./zkStatus.sh`. If every works as expected the return should be `imok`.
 
