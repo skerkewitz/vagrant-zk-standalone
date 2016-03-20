@@ -18,7 +18,7 @@ This will create a new virtual maschine, boot it and install the zookeeper deamo
 
 ## Configure server ip
 
-By default the zookeeper will run at **'192.168.33.10:2181'**. If you want to change the ip address you can do so by editing the `Vagrantfile`. Please see https://www.vagrantup.com/docs/networking/private_network.html for more information.
+By default zookeeper runs at **'192.168.33.10:2181'**. If you would like to change the ip address, you can do so by editing the `Vagrantfile`. Please see https://www.vagrantup.com/docs/networking/private_network.html for more information.
 
 
 
