@@ -7,7 +7,7 @@ Vagrant file to setup a running standalone [Apache Zookeeper 3.4] (https://zooke
 
 ## Quick start guide
 
-Clone the repository using and run the server:
+Clone the repository and run the server:
 ```
 git clone https://github.com/skerkewitz/vagrant-zk-standalone.git
 cd vagrant-zk-standalone/
